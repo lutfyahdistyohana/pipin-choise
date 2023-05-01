@@ -673,3 +673,12 @@ h6,
   text-align: center;
   padding-bottom: 24px;
 }
+
+@media only screen and (max-width: 600px) {
+  .box-search{
+      display:none;
+  }
+  .login{
+    display:none;
+}
+}
